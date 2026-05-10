@@ -1,0 +1,34 @@
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - RUN_START - Started execution of run for "__ephemeral_asset_job__".
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - ENGINE_EVENT - Executing steps in process (pid: 99700)
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - RESOURCE_INIT_STARTED - Starting initialization of resources [io_manager].
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - RESOURCE_INIT_SUCCESS - Finished initialization of resources [io_manager].
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - LOGS_CAPTURED - Capturing logs for process (pid: 99700).
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - raw_data - STEP_START - Started execution of step "raw_data".
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - raw_data - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - raw_data - Writing file at: /var/folders/35/_8wq0rsd45dgms2jkt_kn69c0000gn/T/tmpk90_ansc/storage/raw_data using PickledObjectFilesystemIOManager...
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - raw_data - ASSET_MATERIALIZATION - Materialized value raw_data.
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - raw_data - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - raw_data - STEP_SUCCESS - Finished execution of step "raw_data" in 5.87ms.
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - features - STEP_START - Started execution of step "features".
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - features - Loading file from: /var/folders/35/_8wq0rsd45dgms2jkt_kn69c0000gn/T/tmpk90_ansc/storage/raw_data using PickledObjectFilesystemIOManager...
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - features - LOADED_INPUT - Loaded input "raw_data" using input manager "io_manager", from output "result" of step "raw_data"
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - features - STEP_INPUT - Got input "raw_data" of type "Any". (Type check passed).
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - features - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - features - Writing file at: /var/folders/35/_8wq0rsd45dgms2jkt_kn69c0000gn/T/tmpk90_ansc/storage/features using PickledObjectFilesystemIOManager...
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - features - ASSET_MATERIALIZATION - Materialized value features.
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - features - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - features - STEP_SUCCESS - Finished execution of step "features" in 9.94ms.
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - load_status - STEP_START - Started execution of step "load_status".
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - load_status - Loading file from: /var/folders/35/_8wq0rsd45dgms2jkt_kn69c0000gn/T/tmpk90_ansc/storage/features using PickledObjectFilesystemIOManager...
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - load_status - LOADED_INPUT - Loaded input "features" using input manager "io_manager", from output "result" of step "features"
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - load_status - STEP_INPUT - Got input "features" of type "Any". (Type check passed).
+Dagster loaded features: [10, 20, 30, 40]
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - load_status - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - load_status - Writing file at: /var/folders/35/_8wq0rsd45dgms2jkt_kn69c0000gn/T/tmpk90_ansc/storage/load_status using PickledObjectFilesystemIOManager...
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - load_status - ASSET_MATERIALIZATION - Materialized value load_status.
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - load_status - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - load_status - STEP_SUCCESS - Finished execution of step "load_status" in 8.63ms.
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - ENGINE_EVENT - Finished steps in process (pid: 99700) in 56ms
+2026-05-10 22:48:56 +0800 - dagster - DEBUG - __ephemeral_asset_job__ - 10e45709-15d5-4c12-934f-09eaf56fd71c - 99700 - RUN_SUCCESS - Finished execution of run for "__ephemeral_asset_job__".
+Dagster materialize success: True
+{"success": true}

@@ -21,7 +21,7 @@ RUN wget -q https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.
 ENV PATH="/opt/miniconda/bin:$PATH"
 
 # Create a Python environment using conda-forge to avoid default-channel ToS prompts
-RUN conda create -y -n research -c conda-forge --override-channels python=3.11 pandas numpy scipy scikit-learn && \
+RUN conda create -y -n research -c conda-forge --override-channels python=3.11 pandas numpy scipy scikit-learn pyarrow && \
     conda clean -afy
 
 # Make the research environment the default runtime environment
